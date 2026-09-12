@@ -10,7 +10,7 @@ const EXES = [
     {
         name: "Clarisse Alves",
         age: 17,
-        image: "assets/clarisse-1.jpeg",
+        image: "Clarisse 1.jpeg",
         colors: ["#e68c61", "#8b3b95"],
         compatibility: 96,
         description: "O passado voltou com uma nova notificação.",
