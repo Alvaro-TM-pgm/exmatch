@@ -1,7 +1,6 @@
-/* Perfis fictícios: use apenas personagens inventadas e imagens para as quais você tenha permissão. */
 const EXES = [
   { name: "Maria Rita", age: 17, image: "", colors: ["#df5d9c", "#6b3cba"], compatibility: 98, description: "Uma história que o algoritmo se recusou a esquecer.", reason: "Histórico amoroso detectado." },
-  { name: "Clarisse Alves", age: 17, image: "assets/clarisse-1.jpeg" "assets/clarisse-2.jpeg", colors: ["#e68c61", "#8b3b95"], compatibility: 96, description: "O passado voltou com uma nova notificação.", reason: "Memórias antigas encontradas." },
+  { name: "Clarisse Alves", age: 17, image: "assets/clarisse-1.jpeg" , colors: ["#e68c61", "#8b3b95"], compatibility: 96, description: "O passado voltou com uma nova notificação.", reason: "Memórias antigas encontradas." },
   { name: "Laura Rayssa", age: 18, image: "", colors: ["#3e9bb5", "#6d48a6"], compatibility: 94, description: "Você achou que tinha acabado. O algoritmo discorda.", reason: "Histórico relevante encontrado." }
 ];
 
