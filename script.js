@@ -2,6 +2,7 @@ const EXES = [
     {
         name: "Maria Rita",
         age: 17,
+        image: "Maria Rita 1.jpeg", "Maria Rita 2.jpeg"
         colors: ["#df5d9c", "#6b3cba"],
         compatibility: 98,
         description: "Uma história que o algoritmo se recusou a esquecer.",
@@ -10,7 +11,7 @@ const EXES = [
     {
         name: "Clarisse Alves",
         age: 17,
-        image: "Clarisse 1.jpeg",
+        image: "Clarisse 1.jpeg", "Clarisse 2.jpeg"
         colors: ["#e68c61", "#8b3b95"],
         compatibility: 96,
         description: "O passado voltou com uma nova notificação.",
@@ -19,6 +20,7 @@ const EXES = [
     {
         name: "Laura Rayssa",
         age: 18,
+        image: "Laura 1.jpeg", "Laura 2.jpeg"
         colors: ["#3e9bb5", "#6d48a6"],
         compatibility: 94,
         description: "Você achou que tinha acabado. O algoritmo discorda.",
