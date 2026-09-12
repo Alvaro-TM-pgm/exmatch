@@ -8,6 +8,15 @@ const EXES = [
         description: "Uma história que o algoritmo se recusou a esquecer.",
         reason: "Histórico amoroso detectado."
     },
+     {
+        name: "Isabelly Marry",
+        age: 17,
+        image: "Isa 1.jpeg", 
+        colors: ["#df5d9c", "#6b3cba"],
+        compatibility: 98,
+        description: "Uma história que o algoritmo se recusou a esquecer.",
+        reason: "Histórico amoroso detectado."
+    },
     {
         name: "Clarisse Alves",
         age: 17,
