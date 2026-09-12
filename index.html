@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#110b25">
+  <title>ExMatch — seu passado deu match</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app-shell" aria-live="polite">
+    <div class="glow glow-one"></div><div class="glow glow-two"></div>
+    <section class="screen active" id="welcome">
+      <div class="brand"><span class="brand-heart">♥</span> EXMATCH</div>
+      <p class="eyebrow">O ALGORITMO MAIS QUESTIONÁVEL DO MUNDO</p>
+      <h1>Seu passado<br><em>deu match.</em></h1>
+      <p class="intro">O único app onde seu histórico amoroso é o catálogo.</p>
+      <button class="button primary" data-go="profile">COMEÇAR <span>→</span></button>
+      <p class="fine-print">Baseado em ciência, fofoca e zero bom senso.</p>
+    </section>
+
+    <section class="screen" id="profile">
+      <div class="topbar"><button class="icon-button" data-go="welcome" aria-label="Voltar">←</button><div class="wordmark">EX<span>MATCH</span></div><span class="top-icon">⌁</span></div>
+      <div class="profile-head"><div class="avatar">?</div><p class="eyebrow">PERFIL ANALISADO</p><h2>Perfil analisado<br>com sucesso.</h2></div>
+      <div class="stats">
+        <div><b>99,9%</b><span>Compatibilidade<br>com o passado</span></div>
+        <div><b>100%</b><span>Chance de<br>encontrar uma ex</span></div>
+        <div><b>0%</b><span>Chance de<br>encontrar alguém nova</span></div>
+        <div class="error"><b>ERRO 404</b><span>Inteligência emocional<br>detectada</span></div>
+      </div>
+      <div class="bottom-action"><p>Encontramos exatamente o que você estava tentando esquecer.</p><button class="button primary" id="options-btn">VER MINHAS OPÇÕES <span>→</span></button></div>
+    </section>
+
+    <section class="screen" id="cards">
+      <div class="topbar"><div class="wordmark">EX<span>MATCH</span></div><div class="counter"><span id="counter">1</span> / <span id="total">3</span></div></div>
+      <div class="progress"><i id="progress-bar"></i></div>
+      <div class="card-stage"><article class="dating-card" id="dating-card"></article></div>
+      <p class="hint" id="hint">Deslize seu dedo. Ou tente fugir do destino.</p>
+      <div class="actions"><button class="round pass" id="pass-btn" aria-label="Passar">×</button><button class="round like" id="like-btn" aria-label="Curtir">♥</button></div>
+      <div class="action-labels"><span>PASSAR</span><span>CURTIR</span></div>
+    </section>
+
+    <section class="screen center-screen" id="searching">
+      <div class="search-orbit"><span>♥</span></div><p class="eyebrow">ATUALIZANDO O CATÁLOGO</p><h2>Estamos procurando<br>novas pessoas…</h2><p class="muted">Por favor, finja que existe esperança.</p>
+    </section>
+
+    <section class="screen center-screen" id="more">
+      <div class="new-count" id="new-count">1</div><p class="eyebrow">ATUALIZAÇÃO DO ALGORITMO</p><h2 id="more-title">novo perfil<br>encontrado.</h2><p class="muted">Nosso algoritmo tentou.<br>Ele falhou. Você só tem passado.</p><button class="button primary" id="show-more">VER PERFIL <span>→</span></button>
+    </section>
+
+    <section class="screen match-screen" id="match"><canvas id="confetti"></canvas><div class="match-content"><div class="match-hearts"><span>♥</span><span>♥</span></div><p class="eyebrow">O IMPOSSÍVEL ACONTECEU</p><h1>IT'S A<br><em>MATCH!</em></h1><h2>Vocês já se conhecem.</h2><p>O algoritmo concluiu que vocês têm aproximadamente <b>847 capítulos</b> de história em comum.</p><button class="button light" data-go="final">CONTINUAR <span>→</span></button></div></section>
+
+    <section class="screen final-screen" id="final"><div class="topbar"><div class="wordmark">EX<span>MATCH</span></div></div><p class="eyebrow">RESULTADO DA ANÁLISE</p><h1>O veredito<br>é <em>inevitável.</em></h1><div class="result-box"><p><span>EXES DISPONÍVEIS</span><b id="ex-count">3</b></p><p><span>NOVAS PESSOAS</span><b>0</b></p><p><span>CHANCE DE ESCAPAR DO PASSADO</span><b>0%</b></p><p><span>NÍVEL DE HUMILHAÇÃO</span><b class="pink">100%</b></p></div><p class="final-copy">Parabéns. Depois de uma análise extremamente científica, nosso algoritmo chegou a uma conclusão: <b>seu próximo encontro será com uma ex.</b></p><button class="button primary" id="accept-btn">ACEITAR MEU DESTINO <span>→</span></button><button class="link-button" id="restart-btn">Tentar novamente</button></section>
+    <section class="screen center-screen" id="accepted"><div class="accepted-mark">✓</div><p class="eyebrow">DECISÃO REGISTRADA</p><h1>Destino<br><em>aceito.</em></h1><p class="intro">Boa sorte. Você vai precisar.</p><button class="button light" data-go="welcome">VOLTAR AO INÍCIO</button></section>
+  </main>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
